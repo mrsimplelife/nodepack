@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const router = require("express").Router();
-const URL = "http://localhost:3001/v1";
+const URL = "http://localhost:3001/v2";
 axios.defaults.headers.origin = "http://localhost:4000";
 
 const request = async (req, api) => {
